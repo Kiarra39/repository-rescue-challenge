@@ -23,7 +23,7 @@ Practice Git repository diagnosis, branch workflow cleanup, merge conflict recov
    ```bash
    npm run start-prod
    ```
-
+---------
 ## Investigation Commands
 
 Use these commands to inspect the repository and workflow:
@@ -33,7 +33,7 @@ git log --oneline --all --graph
 git branch -a
 git status
 ```
-
+----
 ## Expected Deliverables
 
 Submit one PDF containing five screenshots:
@@ -76,10 +76,14 @@ Inspect the branch history and repository state to identify:
   npm install
   npm start
   ```
-
+------
 ## Notes
 
 The application reads the port from `process.env.PORT` and falls back to `3000` if it is not set. The README currently contains an incorrect startup command to simulate environment drift.
 
 
-> Temporary test change on temp branch.
+
+## Assignment submission
+ - created two fetaure branches to make chnages to the workflow-notes.md file and revamp the readme file.
+ - Created a pull request and reviewed evidence 
+ - Improved commit history with a successful merge 
